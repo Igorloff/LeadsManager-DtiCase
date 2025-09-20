@@ -2,6 +2,7 @@ import { useCallback, useEffect, useState } from "react";
 import api from "../services/api";
 import type { Lead } from "../types/Lead";
 import LeadCard from "./LeadCard";
+import styles from "./LeadList.module.css";
 
 type LeadsListProps = {
   status: "Invited" | "Accepted";
@@ -13,7 +14,10 @@ export default function LeadsList({ status }: LeadsListProps) {
   const fetchLeads = useCallback(async () => {
     try {
       const endpoint =
-        status.toLowerCase() === "invited" ? "/Leads" : "/Leads/accepted";
+        status === "Invited"
+          ? "/Leads/status/invited"
+          : "/Leads/status/accepted";
+
       const response = await api.get<Lead[]>(endpoint);
       setLeads(response.data);
     } catch (err) {
@@ -27,7 +31,7 @@ export default function LeadsList({ status }: LeadsListProps) {
   }, [fetchLeads]);
 
   return (
-    <div className="leads-list">
+    <div className={styles.lead_list}>
       {leads.map((lead) => (
         <LeadCard key={lead.id} lead={lead} updateLeads={fetchLeads} />
       ))}

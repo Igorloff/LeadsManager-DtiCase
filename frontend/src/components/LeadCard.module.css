@@ -1,0 +1,106 @@
+.card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  color: #444;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.header_containers {
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.category {
+  justify-content: center;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #ffffff;
+  background: #007bff;
+  padding: 4px 12px;
+  border-radius: 12px;
+}
+
+.details {
+  display: flex;
+  gap: 80px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.additional_details {
+  display: flex;
+  font-weight: 500;
+  color: rgb(0, 59, 185);
+  gap: 80px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.last_line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-weight: 600;
+  color: #2a9d8f;
+  font-size: 1.1rem;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+}
+
+.button {
+  width: 120px;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.accept {
+  background: #2a9d8f;
+  color: white;
+}
+
+.accept:hover {
+  background: #23877a;
+}
+
+.decline {
+  background: #e63946;
+  color: white;
+}
+
+.decline:hover {
+  background: #c92c3a;
+}
