@@ -31,9 +31,7 @@ export default function LeadCard({ lead, updateLeads }: LeadCardProps) {
       updateLeads();
       toast.success("Lead aceito com sucesso!");
       setTimeout(() => {
-        toast.info(
-          `Email enviado para ${lead.firstName.toLowerCase()}@gmail.com`
-        );
+        toast.info(`Email enviado para ${lead.email.toLowerCase()}`);
       }, 800);
     } catch (error) {
       console.error("Erro ao aceitar lead:", error);

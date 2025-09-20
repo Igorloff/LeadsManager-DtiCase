@@ -26,8 +26,7 @@ const App = () => {
           </Button>
         </div>
         <div>
-          {tab === "Invited" && <LeadsList status="Invited" />}
-          {tab === "Accepted" && <LeadsList status="Accepted" />}
+          <LeadsList status={tab} />
         </div>
       </div>
       <ToastContainer position="top-right" autoClose={3000} />

@@ -33,7 +33,11 @@ export default function LeadsList({ status }: LeadsListProps) {
   return (
     <div className={styles.lead_list}>
       {leads.map((lead) => (
-        <LeadCard key={lead.id} lead={lead} updateLeads={fetchLeads} />
+        <LeadCard
+          key={`LeadCard_${lead.id}`}
+          lead={lead}
+          updateLeads={fetchLeads}
+        />
       ))}
     </div>
   );
