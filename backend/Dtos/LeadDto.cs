@@ -1,8 +1,11 @@
-public enum LeadStatus { Invited = 0, Accepted = 1, Declined = 2 }
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace LeadsManager.backend.Models
+namespace LeadsManager.backend.Dtos
 {
-    public class Lead
+    public class LeadDto
     {
         public int Id { get; set; }
         public string FirstName { get; set; }
@@ -15,6 +18,6 @@ namespace LeadsManager.backend.Models
         public string Category { get; set; }
         public string Description { get; set; }
         public decimal Price { get; set; }
-        public LeadStatus Status { get; set; } = LeadStatus.Invited;
+        public LeadStatus Status { get; set; }
     }
 }

@@ -1,5 +1,7 @@
 using LeadsManager.backend.data;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,6 +25,12 @@ builder.Services.AddCors(options =>
     });
 });
 
+// MediatR v13+ - forma correta
+builder.Services.AddMediatR(cfg =>
+{
+    cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly());
+});
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
@@ -32,11 +40,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.UseCors("AllowReactApp");
-
 app.UseAuthorization();
-
 app.MapControllers();
-
 app.Run();

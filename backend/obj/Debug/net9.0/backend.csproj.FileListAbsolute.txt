@@ -165,3 +165,7 @@ C:\Users\Igor Reis\LeadsManager\backend\obj\Debug\net9.0\refint\backend.dll
 C:\Users\Igor Reis\LeadsManager\backend\obj\Debug\net9.0\backend.pdb
 C:\Users\Igor Reis\LeadsManager\backend\obj\Debug\net9.0\backend.genruntimeconfig.cache
 C:\Users\Igor Reis\LeadsManager\backend\obj\Debug\net9.0\ref\backend.dll
+C:\Users\Igor Reis\LeadsManager\backend\obj\Debug\net9.0\backend.sourcelink.json
+C:\Users\Igor Reis\LeadsManager\backend\bin\Debug\net9.0\MediatR.dll
+C:\Users\Igor Reis\LeadsManager\backend\bin\Debug\net9.0\MediatR.Contracts.dll
+C:\Users\Igor Reis\LeadsManager\backend\bin\Debug\net9.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
