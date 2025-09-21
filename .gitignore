@@ -1,2 +1,4 @@
 /backend/obj
 /backend/bin
+/backend/test/obj
+/backend/test/bin
