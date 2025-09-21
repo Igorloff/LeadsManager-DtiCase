@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
-import api from "../services/api";
-import type { Lead } from "../types/Lead";
-import LeadCard from "./LeadCard";
+import api from "../../services/api";
+import type { Lead } from "../../types/Lead";
+import LeadCard from "../LeadCard/LeadCard";
 import styles from "./LeadList.module.css";
 
 type LeadsListProps = {

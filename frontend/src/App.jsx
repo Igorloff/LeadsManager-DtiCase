@@ -1,5 +1,5 @@
 import { useState } from "react";
-import LeadsList from "./components/LeadList";
+import LeadsList from "./components/LeadList/LeadList";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./App.css";

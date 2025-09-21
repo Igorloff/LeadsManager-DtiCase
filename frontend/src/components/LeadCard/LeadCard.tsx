@@ -1,6 +1,6 @@
 import { toast } from "react-toastify";
-import api from "../services/api";
-import type { Lead } from "../types/Lead";
+import api from "../../services/api";
+import type { Lead } from "../../types/Lead";
 import styles from "./LeadCard.module.css";
 import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
