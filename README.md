@@ -53,6 +53,7 @@ dotnet ef migrations add InitialCreate
 dotnet ef database update
 dotnet run build
 ```
+Para criar novos Leads, basta acessar no navegador `http://localhost:SUA-PORTA/swagger/index.html` e acessar POST /api/Leads. <br>
 
 ## 3️⃣ Rodar o Frontend
 ```
@@ -60,6 +61,7 @@ cd frontend
 npm install
 npm run dev
 ```
+Para vizualizar a interface, basta acessar no navegador `http://localhost:SUA-PORTA` ou pressionar 'o' no terminal após o comando `npm run dev`. <br>
 
 ### Frontend: ( Funcional )
 ```
@@ -68,7 +70,7 @@ npm test
 ```
 
 ## Para rodar os testes unitários:
-### Backend: ( Não tive tempo de configurar corretamente )
+### Backend: ( Não tive tempo de configurar corretamente 😓 )
 ```
 cd Backend.Tests
 dotnet test
