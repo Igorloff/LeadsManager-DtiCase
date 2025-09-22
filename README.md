@@ -1,12 +1,12 @@
 # Leads Manager – DTI Case
 ## 📌 Sobre o Projeto
 
-***Este projeto foi desenvolvido como solução para o desafio técnico Full Stack .NET.
-O objetivo é construir uma aplicação de gerenciamento de leads para uma empresa, composta por:
-Backend: API RESTful em .NET 6 (C#) com Entity Framework Core e SQL Server.
-Frontend: Aplicação SPA em React.
-Banco de Dados: SQL Server (local).
-Testes Unitários: Implementados com xUnit, Vitest e Testing library.***
+***Este projeto foi desenvolvido como solução para o desafio técnico Full Stack .NET. <br>
+O objetivo é construir uma aplicação de gerenciamento de leads para uma empresa, composta por: <br>
+Backend: API RESTful em .NET 6 (C#) com Entity Framework Core e SQL Server. <br>
+Frontend: Aplicação SPA em React.<br>
+Banco de Dados: SQL Server (local).<br>
+Testes Unitários: Implementados com xUnit, Vitest e Testing library.*** 
 
 # 🛠️ Tecnologias Utilizadas
 
