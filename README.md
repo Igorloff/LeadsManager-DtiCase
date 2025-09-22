@@ -6,7 +6,7 @@ O objetivo é construir uma aplicação de gerenciamento de leads para uma empre
 Backend: API RESTful em .NET 6 (C#) com Entity Framework Core e SQL Server.
 Frontend: Aplicação SPA em React.
 Banco de Dados: SQL Server (local).
-Testes Unitários: Implementados com xUnit.***
+Testes Unitários: Implementados com xUnit, Vitest e Testing library.***
 
 # 🛠️ Tecnologias Utilizadas
 
