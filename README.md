@@ -70,18 +70,18 @@ npm test
 
 
 ## 📧 Notificação por E-mail
-O envio de e-mails foi simulado.
-Cada aceitação de lead gera um log em backend/email_log.txt.
+O envio de e-mails foi simulado. <br>
+Cada aceitação de lead gera um log em backend/email_log.txt. <br>
 
 
 
 ## 📖 Critérios Atendidos
-✅ API .NET Core 6 RESTful
-✅ SPA em React
-✅ Banco SQL Server com EF Core
-✅ Testes Unitários
-✅ CQRS com MediatR
-✅ Serviço de notificação fake
+✅ API .NET Core 6 RESTful <br>
+✅ SPA em React <br>
+✅ Banco SQL Server com EF Core <br>
+✅ Testes Unitários <br>
+✅ CQRS com MediatR <br>
+✅ Serviço de notificação fake <br>
 
 
 
