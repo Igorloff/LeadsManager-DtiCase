@@ -1,4 +1,4 @@
 /backend/obj
 /backend/bin
-/backend/test/obj
-/backend/test/bin
+/backend.Tests/obj
+/backend.Tests/bin
