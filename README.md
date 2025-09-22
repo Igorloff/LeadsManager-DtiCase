@@ -8,8 +8,6 @@ Frontend: Aplicação SPA em React.
 Banco de Dados: SQL Server (local).
 Testes Unitários: Implementados com xUnit.***
 
-
-
 # 🛠️ Tecnologias Utilizadas
 
 ## Backend:
@@ -26,6 +24,17 @@ Testes Unitários: Implementados com xUnit.***
 + Axios para consumo da API
 + Css module
 
+## 📧 Notificação por E-mail
+O envio de e-mails foi simulado. <br>
+Cada aceitação de lead gera um log em backend/email_log.txt. <br>
+
+## 📖 Critérios Atendidos
+✅ API .NET Core 6 RESTful <br>
+✅ SPA em React <br>
+✅ Banco SQL Server com EF Core <br>
+✅ Testes Unitários <br>
+✅ CQRS com MediatR <br>
+✅ Serviço de notificação fake <br>
 
 
 ## 1️⃣ Configurar o Banco de Dados
@@ -52,7 +61,11 @@ npm install
 npm run dev
 ```
 
-
+### Frontend: ( Funcional )
+```
+cd frontend
+npm test
+```
 
 ## Para rodar os testes unitários:
 ### Backend: ( Não tive tempo de configurar corretamente )
@@ -60,30 +73,6 @@ npm run dev
 cd Backend.Tests
 dotnet test
 ```
-
-### Frontend: ( Funcional )
-```
-cd frontend
-npm test
-```
-
-
-
-## 📧 Notificação por E-mail
-O envio de e-mails foi simulado. <br>
-Cada aceitação de lead gera um log em backend/email_log.txt. <br>
-
-
-
-## 📖 Critérios Atendidos
-✅ API .NET Core 6 RESTful <br>
-✅ SPA em React <br>
-✅ Banco SQL Server com EF Core <br>
-✅ Testes Unitários <br>
-✅ CQRS com MediatR <br>
-✅ Serviço de notificação fake <br>
-
-
 
 ## 🖼️ Screenshots
 ### Aba Invited
