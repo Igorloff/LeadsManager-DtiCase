@@ -63,13 +63,14 @@ npm run dev
 ```
 Para vizualizar a interface, basta acessar no navegador `http://localhost:SUA-PORTA` ou pressionar 'o' no terminal após o comando `npm run dev`. <br>
 
+## Para rodar os testes unitários:
+
 ### Frontend: ( Funcional )
 ```
 cd frontend
 npm test
 ```
 
-## Para rodar os testes unitários:
 ### Backend: ( Não tive tempo de configurar corretamente 😓 )
 ```
 cd Backend.Tests
