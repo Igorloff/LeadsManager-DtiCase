@@ -9,21 +9,23 @@ Banco de Dados: SQL Server (local).
 Testes Unitários: Implementados com xUnit.***
 
 
+
 # 🛠️ Tecnologias Utilizadas
 
 ## Backend:
-.NET 6 / C#
-Entity Framework Core
-SQL Server
-MediatR (CQRS)
-xUnit para testes
-Fake Email Service (gera log em arquivo email_log.txt)
++ .NET 6 / C#
++ Entity Framework Core
++ SQL Server
++ MediatR (CQRS)
++ xUnit para testes
++ Fake Email Service (gera log em arquivo email_log.txt)
 
 ## Frontend:
-React
-Vite
-Axios para consumo da API
-Css module
++ React
++ Vite
++ Axios para consumo da API
++ Css module
+
 
 
 ## 1️⃣ Configurar o Banco de Dados
@@ -50,6 +52,8 @@ npm install
 npm run dev
 ```
 
+
+
 ## Para rodar os testes unitários:
 ### Backend: ( Não tive tempo de configurar corretamente )
 ```
@@ -63,9 +67,13 @@ cd frontend
 npm test
 ```
 
+
+
 ## 📧 Notificação por E-mail
 O envio de e-mails foi simulado.
 Cada aceitação de lead gera um log em backend/email_log.txt.
+
+
 
 ## 📖 Critérios Atendidos
 ✅ API .NET Core 6 RESTful
@@ -75,14 +83,15 @@ Cada aceitação de lead gera um log em backend/email_log.txt.
 ✅ CQRS com MediatR
 ✅ Serviço de notificação fake
 
+
+
 ## 🖼️ Screenshots
 ### Aba Invited
-![Invited]
 <img width="1914" height="904" alt="Captura de tela 2025-09-21 223225" src="https://github.com/user-attachments/assets/49233f5a-306e-4dbb-aa8e-ca0cb39d8e14" />
 
 
 ### Aba Accepted
-![Accepted](<img width="1864" height="1001" alt="Captura de tela 2025-09-21 223043" src="https://github.com/user-attachments/assets/32b3ac8e-02e2-45e0-b093-6fe6d4593c77" />)
+<img width="1864" height="1001" alt="Captura de tela 2025-09-21 223043" src="https://github.com/user-attachments/assets/32b3ac8e-02e2-45e0-b093-6fe6d4593c77" />
 
 
 
