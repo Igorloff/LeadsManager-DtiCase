@@ -25,7 +25,6 @@ builder.Services.AddCors(options =>
     });
 });
 
-// MediatR v13+ - forma correta
 builder.Services.AddMediatR(cfg =>
 {
     cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly());
@@ -43,4 +42,7 @@ app.UseHttpsRedirection();
 app.UseCors("AllowReactApp");
 app.UseAuthorization();
 app.MapControllers();
+
+
+
 app.Run();

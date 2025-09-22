@@ -18,7 +18,7 @@ public class AcceptLeadCommandHandler : IRequestHandler<AcceptLeadCommand, Lead>
         var lead = await _context.Leads.FindAsync(request.Id);
         if (lead == null) return null;
 
-        if (lead.Price > 500m) lead.Price *= 0.9m;
+        if (lead.Price >= 500m) lead.Price *= 0.9m;
         lead.Status = LeadStatus.Accepted;
 
         await _context.SaveChangesAsync();
