@@ -1,4 +1,4 @@
-# Leads Manager – DTI Case
+# Leads Manager
 ## 📌 Sobre o Projeto
 
 ***Este projeto foi desenvolvido como solução para o desafio técnico Full Stack .NET. <br>
